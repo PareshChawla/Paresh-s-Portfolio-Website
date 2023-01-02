@@ -62,7 +62,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/paresh-chawla-5035831b2/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
             <a href="https://www.hackerrank.com/pareshchawla" target="_blank" rel="noreferrer"><AiFillCode /></a>
             </div>
-            <div className="mx-auto flex justify-center items-center bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto my-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={profile} layout="fill" objectFit="cover" alt="" />
             </div>
           </div>
