@@ -7,13 +7,13 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import profile from "../public/pareshbitmoji2.png";
-import android from "../public/android.png";
-import website from "../public/website.png";
-import blockchain from "../public/block.png";
+import profile from "../public/img/pareshbitmoji2.png";
+import android from "../public/img/android.png";
+import website from "../public/img/website.png";
+import blockchain from "../public/img/block.png";
 import Image from "next/image";
-import react from "../public/react.png";
-import js from "../public/javascript-logo.png";
+import react from "../public/img/react.png";
+import js from "../public/img/javascript-logo.png";
 
 
 export default function Home() {
