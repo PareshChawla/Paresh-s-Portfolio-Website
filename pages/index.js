@@ -40,7 +40,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://bit.ly/3WFH8HO" target="_blank"
+                  href="https://bit.ly/3WFH8HO" target="_blank" rel="noreferrer"
                 >
                   Resume
                 </a>
@@ -58,12 +58,12 @@ export default function Home() {
               Web Developer (MERN) and Mobile App Developer (Android) currently pursuing BE in Computer Science.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://github.com/PareshChawla" target="_blank"><AiFillGithub /></a>
-            <a href="https://www.linkedin.com/in/paresh-chawla-5035831b2/" target="_blank"><AiFillLinkedin /></a>
-            <a href="https://www.hackerrank.com/pareshchawla" target="_blank"><AiFillCode /></a>
+            <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/paresh-chawla-5035831b2/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+            <a href="https://www.hackerrank.com/pareshchawla" target="_blank" rel="noreferrer"><AiFillCode /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="" />
             </div>
           </div>
         </section>
@@ -82,7 +82,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <a href="https://github.com/PareshChawla" target="_blank"><Image src={website} width={100} height={100} /></a>
+              <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={website} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Web Development
               </h3>
@@ -96,7 +96,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">MongoDB</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <a href="https://github.com/PareshChawla" target="_blank"><Image src={android} width={100} height={100} /> </a>
+            <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={android} width={100} height={100} alt="" /> </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Android Development
               </h3>
@@ -110,7 +110,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Firebase</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-            <a href="https://github.com/PareshChawla" target="_blank"><Image src={blockchain} width={100} height={100} /></a>
+            <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={blockchain} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Blockchain Development</h3>
               <p className="py-2">
               Designing and implementing smart contracts
@@ -139,21 +139,21 @@ export default function Home() {
           </div>
           <div className="lg:flex md:flex gap-10">
             <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <a href="https://github.com/PareshChawla/Note-Keeper-React-App" target="_blank"><Image src={react} width={100} height={100} /></a>
+              <a href="https://github.com/PareshChawla/Note-Keeper-React-App" target="_blank" rel="noreferrer"><Image src={react} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Note Keeper React App
               </h3>
             </div> 
             
             <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <a href="https://github.com/PareshChawla/ProjecGroup" target="_blank"><Image src={android} width={100} height={100} /></a>
+              <a href="https://github.com/PareshChawla/ProjecGroup" target="_blank" rel="noreferrer"><Image src={android} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 ProjecGroup Android App
               </h3>
               
             </div>
             <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <a href="https://github.com/PareshChawla/React-ToDoListApp" target="_blank"><Image src={react} width={100} height={100} /></a>
+              <a href="https://github.com/PareshChawla/React-ToDoListApp" target="_blank" rel="noreferrer"><Image src={react} width={100} height={100} alt="" /></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 To Do List React App
               </h3>
@@ -162,21 +162,21 @@ export default function Home() {
           </div>
             <div className="lg:flex md:flex gap-10">
              <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <a href="https://github.com/PareshChawla/Blog-website" target="_blank"><Image src={js} width={100} height={100} /></a>
+              <a href="https://github.com/PareshChawla/Blog-website" target="_blank" rel="noreferrer"><Image src={js} width={100} height={100} alt="" /></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Blog Website
               </h3>
               
             </div>
             <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <a href="https://github.com/PareshChawla/Water-Delivery-System-" target="_blank"><Image src={android} width={100} height={100} /></a>
+              <a href="https://github.com/PareshChawla/Water-Delivery-System-" target="_blank" rel="noreferrer"><Image src={android} width={100} height={100} alt="" /></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Water Delivery Android App
               </h3>
               
             </div>
             <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <a href="https://github.com/PareshChawla/emojiPedia" target="_blank"><Image src={website} width={100} height={100} /></a>
+              <a href="https://github.com/PareshChawla/emojiPedia" target="_blank" rel="noreferrer"><Image src={website} width={100} height={100} alt="" /></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 EmojiPedia React App
               </h3>
