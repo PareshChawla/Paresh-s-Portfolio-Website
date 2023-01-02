@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import profile from "../public/img/pareshbitmoji2.png";
+import profile from "../public/img/profile.png";
 import android from "../public/img/android.png";
 import website from "../public/img/website.png";
 import blockchain from "../public/img/block.png";
