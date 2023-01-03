@@ -15,6 +15,15 @@ a {
   text-decoration: none;
 }
 
+.hello {
+  width: 200px;  /* Set a fixed width for the image */
+  height: 200px;  /* Set a fixed height for the image */
+  margin: auto;  /* Center the image horizontally */
+  border-radius: 50%;  /* Make the image circular */
+  margin-top: 65px; 
+}
+
+
 .copyright {
   font-size: 14px;
   color: #333;
