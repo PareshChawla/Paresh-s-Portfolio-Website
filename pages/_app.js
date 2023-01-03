@@ -1,4 +1,4 @@
-import '../styles/globals.css,'
+import '../styles/globals.css';
 import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
@@ -10,4 +10,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default MyApp;
