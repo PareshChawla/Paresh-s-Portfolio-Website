@@ -31,7 +31,7 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
           <a href="mailto:pareshchawla.56@gmail.com" 
-          target="_blank" rel="noreferrer"><h1 className="font-burtons text-xl">Contact Me</h1></a>
+          target="_blank" rel="noreferrer"><h1 className="hvr-underline-from-center font-burtons text-xl">Contact Me</h1></a>
             <ul className="flex items-center">
               <li>
                 <div className="cursor-pointer text-2xl" onClick={() => setDarkMode(!darkMode)}>
@@ -40,7 +40,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="hvr-grow-shadow bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="https://bit.ly/3WFH8HO" target="_blank" rel="noreferrer"
                 >
                   Resume
@@ -59,18 +59,18 @@ export default function Home() {
               Web Developer (MERN) and Mobile App Developer (Android) currently pursuing BE in Computer Science.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><AiFillGithub /></a>
-            <a href="https://www.linkedin.com/in/paresh-chawla-5035831b2/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
-            <a href="https://www.hackerrank.com/pareshchawla" target="_blank" rel="noreferrer"><AiFillCode /></a>
+            <a className="hvr-float-shadow" href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+            <a className="hvr-float-shadow" href="https://www.linkedin.com/in/paresh-chawla-5035831b2/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+            <a className="hvr-float-shadow" href="https://www.hackerrank.com/pareshchawla" target="_blank" rel="noreferrer"><AiFillCode /></a>
             </div>
-            <div className="hello mx-auto my-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="hello hvr-glow mx-auto my-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image className="profileImage" src={profile} layout="fill" objectFit="cover" alt="" />
             </div>
           </div>
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="hvr-underline-from-center text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             Since the beginning of my journey as a developer,
             I have had the opportunity to create numerous projects
@@ -82,7 +82,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 hvr-outline-in hvr-push">
               <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={website} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Web Development
@@ -96,7 +96,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Node</p>
               <p className="text-gray-800 py-1">MongoDB</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="hvr-outline-in hvr-push text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
             <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={android} width={100} height={100} alt="" /> </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Android Development
@@ -110,7 +110,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Kotlin</p>
               <p className="text-gray-800 py-1">Firebase</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="hvr-outline-in hvr-push text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
             <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={blockchain} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Blockchain Development</h3>
               <p className="py-2">
@@ -127,7 +127,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
+            <h3 className="hvr-underline-from-center text-3xl py-1 dark:text-white ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
              I have developed various projects on web development
              and android development,
@@ -186,7 +186,7 @@ export default function Home() {
             </div>
             </section>
 
-          <p className=" py-10 copyright">&copy; Copyright 2023 Paresh Chawla</p>
+          <div className="py-10 copyright">&copy; Copyright 2023 Paresh Chawla</div>
         
       </main>
     </div>

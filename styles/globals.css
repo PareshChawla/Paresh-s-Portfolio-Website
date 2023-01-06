@@ -25,10 +25,10 @@ a {
 
 
 .copyright {
-  font-size: 14px;
-  color: #333;
-  text-align: center;
+  @apply text-gray-600;
+  @apply text-center;
 }
+
 
 * {
   box-sizing: border-box;
