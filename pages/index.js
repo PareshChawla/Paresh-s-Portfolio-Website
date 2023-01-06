@@ -30,7 +30,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-          <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=pareshchawla.56@gmail.com&subject=Contact%20Me&body=Hello,%0D%0A%0D%0AI%20saw%20your%20website%20and%20thought%20I%20would%20reach%20out%20to%20see%20if%20we%20could%20work%20together.%20Please%20let%20me%20know%20if%20you%20are%20interested.%0D%0A%0D%0ABest%20regards,%0D%0A[Your%20Name]" 
+          <a href="mailto:pareshchawla.56@gmail.com" 
           target="_blank" rel="noreferrer"><h1 className="font-burtons text-xl">Contact Me</h1></a>
             <ul className="flex items-center">
               <li>
