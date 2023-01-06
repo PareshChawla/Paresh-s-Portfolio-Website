@@ -6,6 +6,7 @@ import {
   AiFillCode
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillSunFill } from "react-icons/bs";
 import { useState } from "react";
 import profile from "../public/img/profile.png";
 import android from "../public/img/android.png";
@@ -29,13 +30,13 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Paresh Chawla</h1>
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlHfBmSPmCjGnBGmCHrQTDnTfhgtlShzbWwQDtbJzGPHkBvdjtdVHjjfHsXqnCFcbnFnV" 
+          target="_blank" rel="noreferrer"><h1 className="font-burtons text-xl">Contact Me</h1></a>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
-                />
+                <div className="cursor-pointer text-2xl" onClick={() => setDarkMode(!darkMode)}>
+                {darkMode ? <BsFillSunFill />: <BsFillMoonStarsFill />  }
+                </div>
               </li>
               <li>
                 <a
