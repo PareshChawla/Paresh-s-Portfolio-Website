@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-5 flex justify-between dark:text-white">
           <a href="mailto:pareshchawla.56@gmail.com" 
           target="_blank" rel="noreferrer"><h1 className="hvr-underline-from-center font-burtons text-xl">Contact Me</h1></a>
             <ul className="flex items-center">
@@ -48,14 +48,14 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center p-8 py-8">
             <h2 className="animate__animated animate__bounce text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Paresh Chawla
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Developer and Programmer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-md py-4 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Web Developer (MERN) and Mobile App Developer (Android) currently pursuing BE in Computer Science.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -63,7 +63,7 @@ export default function Home() {
             <a className="hvr-float-shadow" href="https://www.linkedin.com/in/paresh-chawla-5035831b2/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
             <a className="hvr-float-shadow" href="https://www.hackerrank.com/pareshchawla" target="_blank" rel="noreferrer"><AiFillCode /></a>
             </div>
-            <div className="hello hvr-glow mx-auto my-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="hello hvr-glow mx-auto my-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 lg:h-80 lg:w-80">
               <Image className="profileImage" src={profile} layout="fill" objectFit="cover" alt="" />
             </div>
           </div>
