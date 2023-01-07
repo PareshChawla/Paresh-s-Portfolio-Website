@@ -11,7 +11,7 @@ import { useState } from "react";
 import profile from "../public/img/profile.png";
 import android from "../public/img/android.png";
 import website from "../public/img/website.png";
-import blockchain from "../public/img/block.png";
+import blockchain from "../public/img/metamask.png";
 import Image from "next/image";
 import react from "../public/img/react.png";
 import js from "../public/img/javascript-logo.png";
@@ -82,7 +82,7 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 hvr-outline-in hvr-push">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-200 flex-1 hvr-outline-in hvr-push">
               <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={website} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Web Development
@@ -96,7 +96,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Node</p>
               <p className="text-gray-800 py-1">MongoDB</p>
             </div>
-            <div className="hvr-outline-in hvr-push text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="hvr-outline-in hvr-push text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200 flex-1">
             <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={android} width={100} height={100} alt="" /> </a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Android Development
@@ -110,7 +110,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Kotlin</p>
               <p className="text-gray-800 py-1">Firebase</p>
             </div>
-            <div className="hvr-outline-in hvr-push text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="hvr-outline-in hvr-push text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200 flex-1">
             <a href="https://github.com/PareshChawla" target="_blank" rel="noreferrer"><Image src={blockchain} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Blockchain Development</h3>
               <p className="py-2">
@@ -139,21 +139,21 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex md:flex gap-10">
-            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200 fle flex-1">
               <a href="https://github.com/PareshChawla/Note-Keeper-React-App" target="_blank" rel="noreferrer"><Image src={react} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Note Keeper React App
               </h3>
             </div> 
             
-            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-200 fle flex-1">
               <a href="https://github.com/PareshChawla/ProjecGroup" target="_blank" rel="noreferrer"><Image src={android} width={100} height={100} alt=""/></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 ProjecGroup Android App
               </h3>
               
             </div>
-            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-200 fle flex-1">
               <a href="https://github.com/PareshChawla/React-ToDoListApp" target="_blank" rel="noreferrer"><Image src={react} width={100} height={100} alt="" /></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 To Do List React App
@@ -162,21 +162,21 @@ export default function Home() {
             </div>
           </div>
             <div className="lg:flex md:flex gap-10">
-             <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+             <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-200 fle flex-1">
               <a href="https://github.com/PareshChawla/Blog-website" target="_blank" rel="noreferrer"><Image src={js} width={100} height={100} alt="" /></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Blog Website
               </h3>
               
             </div>
-            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-200 fle flex-1">
               <a href="https://github.com/PareshChawla/Water-Delivery-System-" target="_blank" rel="noreferrer"><Image src={android} width={100} height={100} alt="" /></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Water Delivery Android App
               </h3>
               
             </div>
-            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className="transform transition duration-500 hover:scale-110 text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-200 fle flex-1">
               <a href="https://github.com/PareshChawla/emojiPedia" target="_blank" rel="noreferrer"><Image src={website} width={100} height={100} alt="" /></a>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 EmojiPedia React App
